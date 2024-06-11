@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music-Player</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3c62171a2f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="Container">
+        <img id="image" src="./fein.jpg">
+        <h2>FEIN TRAVIS SCOTT</h2>
+        <p>ft. Puerto Richan</p>
+        
+        <audio id="song">
+            <source src="./Travis_Scott_Playboi_Carti_-_Your_Turn_(Hydr0.org).mp3" type="audio/mpeg">
+        </audio>
+        
+        <input type="range" value="0" id="progress">
+        
+        <div class="controls">
+            <div><i class="fa-solid fa-backward"></i></div>
+            <div onclick="playPause()"><i class="fa-solid fa-play" id="ctrlIcon"></i></div>
+            <div><i class="fa-solid fa-forward"></i></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+   <!-- <audio controls>
+           <source src="./Travis_Scott_Playboi_Carti_-_Your_Turn_(Hydr0.org).mp3" type="audio/mpeg">
+        </audio> -->
